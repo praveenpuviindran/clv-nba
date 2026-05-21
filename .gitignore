@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
+.env
+data/raw/*.csv
+data/raw/*.parquet
+data/processed/*.parquet
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/exports/.gitkeep
+*.log
+.streamlit/secrets.toml
+models/*.pkl
